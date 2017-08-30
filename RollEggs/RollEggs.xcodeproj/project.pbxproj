@@ -1,0 +1,610 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		FF2890321F5667A500C28308 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = FF2890311F5667A500C28308 /* main.m */; };
+		FF2890351F5667A500C28308 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = FF2890341F5667A500C28308 /* AppDelegate.m */; };
+		FF28903D1F5667A500C28308 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FF28903C1F5667A500C28308 /* Assets.xcassets */; };
+		FF2890401F5667A500C28308 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FF28903E1F5667A500C28308 /* LaunchScreen.storyboard */; };
+		FF28904B1F5667A600C28308 /* RollEggsTests.m in Sources */ = {isa = PBXBuildFile; fileRef = FF28904A1F5667A600C28308 /* RollEggsTests.m */; };
+		FF2890561F5667A600C28308 /* RollEggsUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = FF2890551F5667A600C28308 /* RollEggsUITests.m */; };
+		FF2890691F5668B400C28308 /* TWHomeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FF2890681F5668B400C28308 /* TWHomeViewController.m */; };
+		FF28906E1F5668E800C28308 /* TWEge.m in Sources */ = {isa = PBXBuildFile; fileRef = FF28906B1F5668E800C28308 /* TWEge.m */; };
+		FF28906F1F5668E800C28308 /* TWBan.m in Sources */ = {isa = PBXBuildFile; fileRef = FF28906D1F5668E800C28308 /* TWBan.m */; };
+		FF2890731F56690700C28308 /* UIView+TWFrame.m in Sources */ = {isa = PBXBuildFile; fileRef = FF2890721F56690700C28308 /* UIView+TWFrame.m */; };
+		FF2890761F56691400C28308 /* Score.m in Sources */ = {isa = PBXBuildFile; fileRef = FF2890751F56691400C28308 /* Score.m */; };
+		FF28907B1F56698300C28308 /* TWGameViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FF28907A1F56698300C28308 /* TWGameViewController.m */; };
+		FF28907D1F566BD200C28308 /* 04B_30__.TTF in Resources */ = {isa = PBXBuildFile; fileRef = FF28907C1F566BD200C28308 /* 04B_30__.TTF */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		FF2890471F5667A600C28308 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = FF2890251F5667A500C28308 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = FF28902C1F5667A500C28308;
+			remoteInfo = RollEggs;
+		};
+		FF2890521F5667A600C28308 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = FF2890251F5667A500C28308 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = FF28902C1F5667A500C28308;
+			remoteInfo = RollEggs;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		FF28902D1F5667A500C28308 /* RollEggs.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RollEggs.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		FF2890311F5667A500C28308 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		FF2890331F5667A500C28308 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		FF2890341F5667A500C28308 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		FF28903C1F5667A500C28308 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		FF28903F1F5667A500C28308 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		FF2890411F5667A500C28308 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FF2890461F5667A600C28308 /* RollEggsTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = RollEggsTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		FF28904A1F5667A600C28308 /* RollEggsTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RollEggsTests.m; sourceTree = "<group>"; };
+		FF28904C1F5667A600C28308 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FF2890511F5667A600C28308 /* RollEggsUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = RollEggsUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		FF2890551F5667A600C28308 /* RollEggsUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RollEggsUITests.m; sourceTree = "<group>"; };
+		FF2890571F5667A600C28308 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FF2890671F5668B400C28308 /* TWHomeViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TWHomeViewController.h; sourceTree = "<group>"; };
+		FF2890681F5668B400C28308 /* TWHomeViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TWHomeViewController.m; sourceTree = "<group>"; };
+		FF28906A1F5668E800C28308 /* TWEge.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TWEge.h; sourceTree = "<group>"; };
+		FF28906B1F5668E800C28308 /* TWEge.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TWEge.m; sourceTree = "<group>"; };
+		FF28906C1F5668E800C28308 /* TWBan.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TWBan.h; sourceTree = "<group>"; };
+		FF28906D1F5668E800C28308 /* TWBan.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TWBan.m; sourceTree = "<group>"; };
+		FF2890711F56690700C28308 /* UIView+TWFrame.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+TWFrame.h"; sourceTree = "<group>"; };
+		FF2890721F56690700C28308 /* UIView+TWFrame.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+TWFrame.m"; sourceTree = "<group>"; };
+		FF2890741F56691400C28308 /* Score.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Score.h; sourceTree = "<group>"; };
+		FF2890751F56691400C28308 /* Score.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Score.m; sourceTree = "<group>"; };
+		FF2890771F56691B00C28308 /* Define.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Define.h; sourceTree = "<group>"; };
+		FF2890781F56692B00C28308 /* RollEggs.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RollEggs.pch; sourceTree = "<group>"; };
+		FF2890791F56698300C28308 /* TWGameViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TWGameViewController.h; sourceTree = "<group>"; };
+		FF28907A1F56698300C28308 /* TWGameViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TWGameViewController.m; sourceTree = "<group>"; };
+		FF28907C1F566BD200C28308 /* 04B_30__.TTF */ = {isa = PBXFileReference; lastKnownFileType = file; path = 04B_30__.TTF; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		FF28902A1F5667A500C28308 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FF2890431F5667A600C28308 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FF28904E1F5667A600C28308 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		FF2890241F5667A500C28308 = {
+			isa = PBXGroup;
+			children = (
+				FF28902F1F5667A500C28308 /* RollEggs */,
+				FF2890491F5667A600C28308 /* RollEggsTests */,
+				FF2890541F5667A600C28308 /* RollEggsUITests */,
+				FF28902E1F5667A500C28308 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		FF28902E1F5667A500C28308 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				FF28902D1F5667A500C28308 /* RollEggs.app */,
+				FF2890461F5667A600C28308 /* RollEggsTests.xctest */,
+				FF2890511F5667A600C28308 /* RollEggsUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		FF28902F1F5667A500C28308 /* RollEggs */ = {
+			isa = PBXGroup;
+			children = (
+				FF2890631F56683E00C28308 /* Costom */,
+				FF2890331F5667A500C28308 /* AppDelegate.h */,
+				FF2890341F5667A500C28308 /* AppDelegate.m */,
+				FF28903C1F5667A500C28308 /* Assets.xcassets */,
+				FF28903E1F5667A500C28308 /* LaunchScreen.storyboard */,
+				FF2890411F5667A500C28308 /* Info.plist */,
+				FF2890301F5667A500C28308 /* Supporting Files */,
+			);
+			path = RollEggs;
+			sourceTree = "<group>";
+		};
+		FF2890301F5667A500C28308 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				FF2890311F5667A500C28308 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		FF2890491F5667A600C28308 /* RollEggsTests */ = {
+			isa = PBXGroup;
+			children = (
+				FF28904A1F5667A600C28308 /* RollEggsTests.m */,
+				FF28904C1F5667A600C28308 /* Info.plist */,
+			);
+			path = RollEggsTests;
+			sourceTree = "<group>";
+		};
+		FF2890541F5667A600C28308 /* RollEggsUITests */ = {
+			isa = PBXGroup;
+			children = (
+				FF2890551F5667A600C28308 /* RollEggsUITests.m */,
+				FF2890571F5667A600C28308 /* Info.plist */,
+			);
+			path = RollEggsUITests;
+			sourceTree = "<group>";
+		};
+		FF2890631F56683E00C28308 /* Costom */ = {
+			isa = PBXGroup;
+			children = (
+				FF2890701F56690700C28308 /* Category */,
+				FF2890641F56689000C28308 /* Other */,
+				FF2890651F56689000C28308 /* View */,
+				FF2890661F56689000C28308 /* ViewController */,
+			);
+			path = Costom;
+			sourceTree = "<group>";
+		};
+		FF2890641F56689000C28308 /* Other */ = {
+			isa = PBXGroup;
+			children = (
+				FF28907C1F566BD200C28308 /* 04B_30__.TTF */,
+				FF2890771F56691B00C28308 /* Define.h */,
+				FF2890741F56691400C28308 /* Score.h */,
+				FF2890751F56691400C28308 /* Score.m */,
+				FF2890781F56692B00C28308 /* RollEggs.pch */,
+			);
+			path = Other;
+			sourceTree = "<group>";
+		};
+		FF2890651F56689000C28308 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				FF28906A1F5668E800C28308 /* TWEge.h */,
+				FF28906B1F5668E800C28308 /* TWEge.m */,
+				FF28906C1F5668E800C28308 /* TWBan.h */,
+				FF28906D1F5668E800C28308 /* TWBan.m */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		FF2890661F56689000C28308 /* ViewController */ = {
+			isa = PBXGroup;
+			children = (
+				FF2890671F5668B400C28308 /* TWHomeViewController.h */,
+				FF2890681F5668B400C28308 /* TWHomeViewController.m */,
+				FF2890791F56698300C28308 /* TWGameViewController.h */,
+				FF28907A1F56698300C28308 /* TWGameViewController.m */,
+			);
+			path = ViewController;
+			sourceTree = "<group>";
+		};
+		FF2890701F56690700C28308 /* Category */ = {
+			isa = PBXGroup;
+			children = (
+				FF2890711F56690700C28308 /* UIView+TWFrame.h */,
+				FF2890721F56690700C28308 /* UIView+TWFrame.m */,
+			);
+			path = Category;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		FF28902C1F5667A500C28308 /* RollEggs */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FF28905A1F5667A600C28308 /* Build configuration list for PBXNativeTarget "RollEggs" */;
+			buildPhases = (
+				FF2890291F5667A500C28308 /* Sources */,
+				FF28902A1F5667A500C28308 /* Frameworks */,
+				FF28902B1F5667A500C28308 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = RollEggs;
+			productName = RollEggs;
+			productReference = FF28902D1F5667A500C28308 /* RollEggs.app */;
+			productType = "com.apple.product-type.application";
+		};
+		FF2890451F5667A600C28308 /* RollEggsTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FF28905D1F5667A600C28308 /* Build configuration list for PBXNativeTarget "RollEggsTests" */;
+			buildPhases = (
+				FF2890421F5667A600C28308 /* Sources */,
+				FF2890431F5667A600C28308 /* Frameworks */,
+				FF2890441F5667A600C28308 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				FF2890481F5667A600C28308 /* PBXTargetDependency */,
+			);
+			name = RollEggsTests;
+			productName = RollEggsTests;
+			productReference = FF2890461F5667A600C28308 /* RollEggsTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		FF2890501F5667A600C28308 /* RollEggsUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FF2890601F5667A600C28308 /* Build configuration list for PBXNativeTarget "RollEggsUITests" */;
+			buildPhases = (
+				FF28904D1F5667A600C28308 /* Sources */,
+				FF28904E1F5667A600C28308 /* Frameworks */,
+				FF28904F1F5667A600C28308 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				FF2890531F5667A600C28308 /* PBXTargetDependency */,
+			);
+			name = RollEggsUITests;
+			productName = RollEggsUITests;
+			productReference = FF2890511F5667A600C28308 /* RollEggsUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		FF2890251F5667A500C28308 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = TW;
+				LastUpgradeCheck = 0830;
+				ORGANIZATIONNAME = "田伟";
+				TargetAttributes = {
+					FF28902C1F5667A500C28308 = {
+						CreatedOnToolsVersion = 8.3.3;
+						DevelopmentTeam = 7F3QQKKLR9;
+						ProvisioningStyle = Automatic;
+					};
+					FF2890451F5667A600C28308 = {
+						CreatedOnToolsVersion = 8.3.3;
+						DevelopmentTeam = 7F3QQKKLR9;
+						ProvisioningStyle = Automatic;
+						TestTargetID = FF28902C1F5667A500C28308;
+					};
+					FF2890501F5667A600C28308 = {
+						CreatedOnToolsVersion = 8.3.3;
+						DevelopmentTeam = 7F3QQKKLR9;
+						ProvisioningStyle = Automatic;
+						TestTargetID = FF28902C1F5667A500C28308;
+					};
+				};
+			};
+			buildConfigurationList = FF2890281F5667A500C28308 /* Build configuration list for PBXProject "RollEggs" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = FF2890241F5667A500C28308;
+			productRefGroup = FF28902E1F5667A500C28308 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				FF28902C1F5667A500C28308 /* RollEggs */,
+				FF2890451F5667A600C28308 /* RollEggsTests */,
+				FF2890501F5667A600C28308 /* RollEggsUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		FF28902B1F5667A500C28308 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FF2890401F5667A500C28308 /* LaunchScreen.storyboard in Resources */,
+				FF28907D1F566BD200C28308 /* 04B_30__.TTF in Resources */,
+				FF28903D1F5667A500C28308 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FF2890441F5667A600C28308 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FF28904F1F5667A600C28308 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		FF2890291F5667A500C28308 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FF2890691F5668B400C28308 /* TWHomeViewController.m in Sources */,
+				FF2890731F56690700C28308 /* UIView+TWFrame.m in Sources */,
+				FF2890351F5667A500C28308 /* AppDelegate.m in Sources */,
+				FF28906F1F5668E800C28308 /* TWBan.m in Sources */,
+				FF2890761F56691400C28308 /* Score.m in Sources */,
+				FF28907B1F56698300C28308 /* TWGameViewController.m in Sources */,
+				FF28906E1F5668E800C28308 /* TWEge.m in Sources */,
+				FF2890321F5667A500C28308 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FF2890421F5667A600C28308 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FF28904B1F5667A600C28308 /* RollEggsTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FF28904D1F5667A600C28308 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FF2890561F5667A600C28308 /* RollEggsUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		FF2890481F5667A600C28308 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = FF28902C1F5667A500C28308 /* RollEggs */;
+			targetProxy = FF2890471F5667A600C28308 /* PBXContainerItemProxy */;
+		};
+		FF2890531F5667A600C28308 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = FF28902C1F5667A500C28308 /* RollEggs */;
+			targetProxy = FF2890521F5667A600C28308 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		FF28903E1F5667A500C28308 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FF28903F1F5667A500C28308 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		FF2890581F5667A600C28308 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		FF2890591F5667A600C28308 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		FF28905B1F5667A600C28308 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 7F3QQKKLR9;
+				GCC_PREFIX_HEADER = "$(SRCROOT)/RollEggs/Costom/Other/RollEggs.pch";
+				INFOPLIST_FILE = RollEggs/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.shmx.RollEggs;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		FF28905C1F5667A600C28308 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 7F3QQKKLR9;
+				GCC_PREFIX_HEADER = "$(SRCROOT)/RollEggs/Costom/Other/RollEggs.pch";
+				INFOPLIST_FILE = RollEggs/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.shmx.RollEggs;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		FF28905E1F5667A600C28308 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = 7F3QQKKLR9;
+				INFOPLIST_FILE = RollEggsTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.shmx.RollEggsTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/RollEggs.app/RollEggs";
+			};
+			name = Debug;
+		};
+		FF28905F1F5667A600C28308 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = 7F3QQKKLR9;
+				INFOPLIST_FILE = RollEggsTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.shmx.RollEggsTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/RollEggs.app/RollEggs";
+			};
+			name = Release;
+		};
+		FF2890611F5667A600C28308 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DEVELOPMENT_TEAM = 7F3QQKKLR9;
+				INFOPLIST_FILE = RollEggsUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.shmx.RollEggsUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = RollEggs;
+			};
+			name = Debug;
+		};
+		FF2890621F5667A600C28308 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DEVELOPMENT_TEAM = 7F3QQKKLR9;
+				INFOPLIST_FILE = RollEggsUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.shmx.RollEggsUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = RollEggs;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		FF2890281F5667A500C28308 /* Build configuration list for PBXProject "RollEggs" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FF2890581F5667A600C28308 /* Debug */,
+				FF2890591F5667A600C28308 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FF28905A1F5667A600C28308 /* Build configuration list for PBXNativeTarget "RollEggs" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FF28905B1F5667A600C28308 /* Debug */,
+				FF28905C1F5667A600C28308 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		FF28905D1F5667A600C28308 /* Build configuration list for PBXNativeTarget "RollEggsTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FF28905E1F5667A600C28308 /* Debug */,
+				FF28905F1F5667A600C28308 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		FF2890601F5667A600C28308 /* Build configuration list for PBXNativeTarget "RollEggsUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FF2890611F5667A600C28308 /* Debug */,
+				FF2890621F5667A600C28308 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = FF2890251F5667A500C28308 /* Project object */;
+}
