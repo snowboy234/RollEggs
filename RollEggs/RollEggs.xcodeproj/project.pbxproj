@@ -13,13 +13,17 @@
 		FF2890401F5667A500C28308 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FF28903E1F5667A500C28308 /* LaunchScreen.storyboard */; };
 		FF28904B1F5667A600C28308 /* RollEggsTests.m in Sources */ = {isa = PBXBuildFile; fileRef = FF28904A1F5667A600C28308 /* RollEggsTests.m */; };
 		FF2890561F5667A600C28308 /* RollEggsUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = FF2890551F5667A600C28308 /* RollEggsUITests.m */; };
-		FF2890691F5668B400C28308 /* TWHomeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FF2890681F5668B400C28308 /* TWHomeViewController.m */; };
 		FF28906E1F5668E800C28308 /* TWEge.m in Sources */ = {isa = PBXBuildFile; fileRef = FF28906B1F5668E800C28308 /* TWEge.m */; };
 		FF28906F1F5668E800C28308 /* TWBan.m in Sources */ = {isa = PBXBuildFile; fileRef = FF28906D1F5668E800C28308 /* TWBan.m */; };
 		FF2890731F56690700C28308 /* UIView+TWFrame.m in Sources */ = {isa = PBXBuildFile; fileRef = FF2890721F56690700C28308 /* UIView+TWFrame.m */; };
 		FF2890761F56691400C28308 /* Score.m in Sources */ = {isa = PBXBuildFile; fileRef = FF2890751F56691400C28308 /* Score.m */; };
 		FF28907B1F56698300C28308 /* TWGameViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FF28907A1F56698300C28308 /* TWGameViewController.m */; };
-		FF28907D1F566BD200C28308 /* 04B_30__.TTF in Resources */ = {isa = PBXBuildFile; fileRef = FF28907C1F566BD200C28308 /* 04B_30__.TTF */; };
+		FF2890D21F5688E100C28308 /* TWHomeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FF2890D01F5688E100C28308 /* TWHomeViewController.m */; };
+		FF2890D31F5688E100C28308 /* TWHomeViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = FF2890D11F5688E100C28308 /* TWHomeViewController.xib */; };
+		FF2890D71F568B0F00C28308 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = FF2890D91F568B0F00C28308 /* InfoPlist.strings */; };
+		FF2890DD1F568B4000C28308 /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = FF2890DF1F568B4000C28308 /* Localizable.strings */; };
+		FF2890E41F5691BC00C28308 /* TWOverViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FF2890E21F5691BC00C28308 /* TWOverViewController.m */; };
+		FF2890E51F5691BC00C28308 /* TWOverViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = FF2890E31F5691BC00C28308 /* TWOverViewController.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -53,8 +57,6 @@
 		FF2890511F5667A600C28308 /* RollEggsUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = RollEggsUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		FF2890551F5667A600C28308 /* RollEggsUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RollEggsUITests.m; sourceTree = "<group>"; };
 		FF2890571F5667A600C28308 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		FF2890671F5668B400C28308 /* TWHomeViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TWHomeViewController.h; sourceTree = "<group>"; };
-		FF2890681F5668B400C28308 /* TWHomeViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TWHomeViewController.m; sourceTree = "<group>"; };
 		FF28906A1F5668E800C28308 /* TWEge.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TWEge.h; sourceTree = "<group>"; };
 		FF28906B1F5668E800C28308 /* TWEge.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TWEge.m; sourceTree = "<group>"; };
 		FF28906C1F5668E800C28308 /* TWBan.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TWBan.h; sourceTree = "<group>"; };
@@ -67,7 +69,17 @@
 		FF2890781F56692B00C28308 /* RollEggs.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RollEggs.pch; sourceTree = "<group>"; };
 		FF2890791F56698300C28308 /* TWGameViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TWGameViewController.h; sourceTree = "<group>"; };
 		FF28907A1F56698300C28308 /* TWGameViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TWGameViewController.m; sourceTree = "<group>"; };
-		FF28907C1F566BD200C28308 /* 04B_30__.TTF */ = {isa = PBXFileReference; lastKnownFileType = file; path = 04B_30__.TTF; sourceTree = "<group>"; };
+		FF2890CF1F5688E100C28308 /* TWHomeViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TWHomeViewController.h; sourceTree = "<group>"; };
+		FF2890D01F5688E100C28308 /* TWHomeViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TWHomeViewController.m; sourceTree = "<group>"; };
+		FF2890D11F5688E100C28308 /* TWHomeViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = TWHomeViewController.xib; sourceTree = "<group>"; };
+		FF2890D41F568ADD00C28308 /* zh-Hans */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "zh-Hans"; path = "zh-Hans.lproj/LaunchScreen.strings"; sourceTree = "<group>"; };
+		FF2890D81F568B0F00C28308 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		FF2890DA1F568B1100C28308 /* zh-Hans */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "zh-Hans"; path = "zh-Hans.lproj/InfoPlist.strings"; sourceTree = "<group>"; };
+		FF2890DE1F568B4000C28308 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/Localizable.strings; sourceTree = "<group>"; };
+		FF2890E01F568B4900C28308 /* zh-Hans */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "zh-Hans"; path = "zh-Hans.lproj/Localizable.strings"; sourceTree = "<group>"; };
+		FF2890E11F5691BC00C28308 /* TWOverViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TWOverViewController.h; sourceTree = "<group>"; };
+		FF2890E21F5691BC00C28308 /* TWOverViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TWOverViewController.m; sourceTree = "<group>"; };
+		FF2890E31F5691BC00C28308 /* TWOverViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = TWOverViewController.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -125,6 +137,8 @@
 				FF28903E1F5667A500C28308 /* LaunchScreen.storyboard */,
 				FF2890411F5667A500C28308 /* Info.plist */,
 				FF2890301F5667A500C28308 /* Supporting Files */,
+				FF2890D91F568B0F00C28308 /* InfoPlist.strings */,
+				FF2890DF1F568B4000C28308 /* Localizable.strings */,
 			);
 			path = RollEggs;
 			sourceTree = "<group>";
@@ -169,7 +183,6 @@
 		FF2890641F56689000C28308 /* Other */ = {
 			isa = PBXGroup;
 			children = (
-				FF28907C1F566BD200C28308 /* 04B_30__.TTF */,
 				FF2890771F56691B00C28308 /* Define.h */,
 				FF2890741F56691400C28308 /* Score.h */,
 				FF2890751F56691400C28308 /* Score.m */,
@@ -192,10 +205,14 @@
 		FF2890661F56689000C28308 /* ViewController */ = {
 			isa = PBXGroup;
 			children = (
-				FF2890671F5668B400C28308 /* TWHomeViewController.h */,
-				FF2890681F5668B400C28308 /* TWHomeViewController.m */,
+				FF2890CF1F5688E100C28308 /* TWHomeViewController.h */,
+				FF2890D01F5688E100C28308 /* TWHomeViewController.m */,
+				FF2890D11F5688E100C28308 /* TWHomeViewController.xib */,
 				FF2890791F56698300C28308 /* TWGameViewController.h */,
 				FF28907A1F56698300C28308 /* TWGameViewController.m */,
+				FF2890E11F5691BC00C28308 /* TWOverViewController.h */,
+				FF2890E21F5691BC00C28308 /* TWOverViewController.m */,
+				FF2890E31F5691BC00C28308 /* TWOverViewController.xib */,
 			);
 			path = ViewController;
 			sourceTree = "<group>";
@@ -301,6 +318,7 @@
 			knownRegions = (
 				en,
 				Base,
+				"zh-Hans",
 			);
 			mainGroup = FF2890241F5667A500C28308;
 			productRefGroup = FF28902E1F5667A500C28308 /* Products */;
@@ -319,9 +337,12 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FF2890D31F5688E100C28308 /* TWHomeViewController.xib in Resources */,
+				FF2890DD1F568B4000C28308 /* Localizable.strings in Resources */,
+				FF2890E51F5691BC00C28308 /* TWOverViewController.xib in Resources */,
 				FF2890401F5667A500C28308 /* LaunchScreen.storyboard in Resources */,
-				FF28907D1F566BD200C28308 /* 04B_30__.TTF in Resources */,
 				FF28903D1F5667A500C28308 /* Assets.xcassets in Resources */,
+				FF2890D71F568B0F00C28308 /* InfoPlist.strings in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -346,13 +367,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				FF2890691F5668B400C28308 /* TWHomeViewController.m in Sources */,
 				FF2890731F56690700C28308 /* UIView+TWFrame.m in Sources */,
 				FF2890351F5667A500C28308 /* AppDelegate.m in Sources */,
 				FF28906F1F5668E800C28308 /* TWBan.m in Sources */,
 				FF2890761F56691400C28308 /* Score.m in Sources */,
+				FF2890D21F5688E100C28308 /* TWHomeViewController.m in Sources */,
 				FF28907B1F56698300C28308 /* TWGameViewController.m in Sources */,
 				FF28906E1F5668E800C28308 /* TWEge.m in Sources */,
+				FF2890E41F5691BC00C28308 /* TWOverViewController.m in Sources */,
 				FF2890321F5667A500C28308 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -393,8 +415,27 @@
 			isa = PBXVariantGroup;
 			children = (
 				FF28903F1F5667A500C28308 /* Base */,
+				FF2890D41F568ADD00C28308 /* zh-Hans */,
 			);
 			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+		FF2890D91F568B0F00C28308 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FF2890D81F568B0F00C28308 /* en */,
+				FF2890DA1F568B1100C28308 /* zh-Hans */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		FF2890DF1F568B4000C28308 /* Localizable.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FF2890DE1F568B4000C28308 /* en */,
+				FF2890E01F568B4900C28308 /* zh-Hans */,
+			);
+			name = Localizable.strings;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */
@@ -404,6 +445,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
 				CLANG_ANALYZER_NONNULL = YES;
 				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
@@ -452,6 +494,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
 				CLANG_ANALYZER_NONNULL = YES;
 				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
@@ -587,6 +630,7 @@
 				FF28905C1F5667A600C28308 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		FF28905D1F5667A600C28308 /* Build configuration list for PBXNativeTarget "RollEggsTests" */ = {
 			isa = XCConfigurationList;
@@ -595,6 +639,7 @@
 				FF28905F1F5667A600C28308 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		FF2890601F5667A600C28308 /* Build configuration list for PBXNativeTarget "RollEggsUITests" */ = {
 			isa = XCConfigurationList;
@@ -603,6 +648,7 @@
 				FF2890621F5667A600C28308 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

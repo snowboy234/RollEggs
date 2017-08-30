@@ -1,0 +1,12 @@
+/* 
+  Localizable.strings
+  RollEggs
+
+  Created by 田伟 on 2017/8/30.
+  Copyright © 2017年 田伟. All rights reserved.
+*/
+"Title"="滚鸡吧";
+"Tip"="提示：点击屏幕可以调整下方障碍条的位置，让鸡蛋顺利通过半透明的障碍物即可加分。";
+"Over"="游戏结束";
+"This"="本次得分";
+"Max"="最高得分";

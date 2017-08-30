@@ -1,0 +1,12 @@
+/* 
+  Localizable.strings
+  RollEggs
+
+  Created by 田伟 on 2017/8/30.
+  Copyright © 2017年 田伟. All rights reserved.
+*/
+"Title"="Roll Eggs";
+"Tip"="Prompt:Click on the screen to adjust the location of the barrier below, so that eggs through the translucent obstacles can be added points.";
+"Over"="GameOver";
+"This"="This score";
+"Max"="Top score";

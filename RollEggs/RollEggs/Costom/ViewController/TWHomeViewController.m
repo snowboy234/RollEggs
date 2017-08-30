@@ -10,46 +10,23 @@
 #import "TWGameViewController.h"
 
 @interface TWHomeViewController ()
-
+@property (weak, nonatomic) IBOutlet UILabel *titleLabel;
+@property (weak, nonatomic) IBOutlet UILabel *tipLabel;
 @end
 
 @implementation TWHomeViewController
 
 - (void)viewDidLoad {
     [super viewDidLoad];
-    [self bgImageView];
-    [self initEggs];
-    [self initTitleView];
-    [self startButton];
+    _titleLabel.text = NSLocalizedString(@"Title", nil);
+    _titleLabel.shadowColor = [UIColor darkGrayColor];
+    _titleLabel.shadowOffset = CGSizeMake(5, 5);
+    _tipLabel.text = NSLocalizedString(@"Tip", nil);
 }
 
-- (void)initEggs{
-    // 背景鸡蛋
-}
-
-- (void)initTitleView{
-    // 标题
-    
-}
-
-- (void)startButton{
-    UIButton * start = [UIButton buttonWithType:UIButtonTypeCustom];
-    [start setImage:[UIImage imageNamed:@"twbeginBtn"] forState:UIControlStateNormal];
-    [start sizeToFit];
-    start.center = self.view.center;
-    [self.view addSubview:start];
-    [start addTarget:self action:@selector(startButtonClick) forControlEvents:UIControlEventTouchUpInside];
-}
-
-- (void)startButtonClick{
+- (IBAction)startButtonClick:(id)sender {
     TWGameViewController * game = [[TWGameViewController alloc]init];
     [self presentViewController:game animated:YES completion:nil];
-}
-
-- (void)bgImageView{
-    UIImageView * bg = [[UIImageView alloc]initWithFrame:self.view.frame];
-    bg.image = [UIImage imageNamed:@"bg"];
-    [self.view addSubview:bg];
 }
 
 @end

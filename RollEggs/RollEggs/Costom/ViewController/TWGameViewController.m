@@ -10,6 +10,7 @@
 #import "TWEge.h"
 #import "TWBan.h"
 #import "Score.h"
+#import "TWOverViewController.h"
 
 @interface TWGameViewController ()<TWEgeDelegate, TWBanDelegate>
 @property (nonatomic, strong) UIImageView * dangbanView;
@@ -18,6 +19,8 @@
 @property (nonatomic, strong) UILabel * scoreLabel;
 @property (nonatomic, strong) Score * score;
 @property (nonatomic, strong) NSTimer * timer;
+@property (nonatomic, strong) NSTimer * accelerateTimer;
+@property (nonatomic, assign) CGFloat time;
 @end
 
 @implementation TWGameViewController
@@ -26,14 +29,37 @@
     [super viewDidLoad];
     _move = YES;
     _paused = NO;
+    _time = 2.0;
     _score = [Score initScore];
     [self bgImageView];
     [self dangbanImageView];
     [self initScoreLabel];
-    _timer = [NSTimer scheduledTimerWithTimeInterval:2.0 target:self selector:@selector(createEge) userInfo:nil repeats:YES];
+    _timer = [NSTimer scheduledTimerWithTimeInterval:_time target:self selector:@selector(createEge) userInfo:nil repeats:YES];
+    _accelerateTimer = [NSTimer scheduledTimerWithTimeInterval:60 repeats:YES block:^(NSTimer * _Nonnull timer) {
+        _time-=0.1;
+        if (_time < 0.5) {
+            _time = 0.5;
+        }
+    }];
+    [self initDismissButton];
+}
+
+- (void)initDismissButton{
+    UIButton * button = [UIButton buttonWithType:UIButtonTypeCustom];
+    button.frame = CGRectMake(0, 20, 44, 44);
+    [button setImage:[UIImage imageNamed:@"tw_tipsRemove"] forState:UIControlStateNormal];
+    [button addTarget:self action:@selector(dismissButtonClick) forControlEvents:UIControlEventTouchUpInside];
+    [self.view addSubview:button];
+}
+
+- (void)dismissButtonClick{
+    _paused = YES;
+    [self dismissViewControllerAnimated:YES completion:nil];
 }
 
 - (void)dealloc{
+    [_accelerateTimer invalidate];
+    _accelerateTimer = nil;
     [_timer invalidate];
     _timer = nil;
 }
@@ -59,10 +85,15 @@
 }
 
 - (void)gameoverNoti{
-    TWLog(@"gameover");
     _paused = YES;
-    // 覆盖蒙版
-    
+    TWOverViewController * over = [[TWOverViewController alloc]init];
+    over.score = _score.points / 7;
+    over.block = ^{
+        _paused = NO;
+        _score.points = 0;
+        _scoreLabel.text = @"0";
+    };
+    [self presentViewController:over animated:YES completion:nil];
 }
 
 - (void)checkPosition:(TWEge *)ball{

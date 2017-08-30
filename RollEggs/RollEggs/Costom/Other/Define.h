@@ -31,5 +31,6 @@
 #define TWLogFunc
 #endif
 
+#define MaxScore @"MaxScore"
 
 #endif /* Define_h */
